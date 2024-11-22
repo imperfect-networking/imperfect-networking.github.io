@@ -1,0 +1,89 @@
+baseURL = "https://imperfectnetwork.ing/"
+theme = "risotto"
+title = "imperfect-networking"
+author = "emdee"
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+summary = 20
+
+# Automatically add content sections to main menu
+sectionPagesMenu = "main"
+
+[params]
+noindex = false
+
+[params.theme]
+palette = "tokyo-night-dark"
+
+# Sidebar: about/bio
+[params.about]
+title = "welcome"
+description = "welcome"
+# unicode/emoji logo:
+logo = "💭"
+# or use an image:
+#logo_image = "images/rice.svg"
+
+[menu]
+  [[menu.main]]
+    identifier = "placeholder"
+    name = "nothing-here"
+    url = "/placeholder/"
+    pageRef = "/placeholder"
+    weight = 1
+#  [[menu.main]]
+#    identifier = "personal"
+#    name = "personal-blogs"
+#    url = '/personal/'
+#    weight = 2
+#  [[menu.main]]
+#    identifier = "projects"
+#    name = "project-blogs"
+#    url = "/project/"
+#    weight = 3
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+# For hugo >= 0.60.0, enable inline HTML
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup]
+
+  # Table of contents
+  # Add toc = true to content front matter to enable
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel   = 3
+    ordered    = true
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
