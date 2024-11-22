@@ -20,7 +20,7 @@ palette = "tokyo-night-dark"
 [params.about]
 title = "> welcome"
 description = "_a blog of frustration, anger, love, and passion._"
-#logo = "🌙"
+# logo = "🌙"
 
 [[params.socialLinks]]
 icon = "fa-brands fa-bluesky"
