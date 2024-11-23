@@ -18,7 +18,7 @@ palette = "tokyo-night-dark"
 
 # Sidebar: about/bio
 [params.about]
-title = "> welcome"
+title = ""
 description = "_a blog of frustration, anger, love, and passion._"
 # logo = "🌙"
 
